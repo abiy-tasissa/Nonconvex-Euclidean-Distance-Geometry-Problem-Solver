@@ -6,11 +6,11 @@ A fast nonconvex algorithm for the Euclidean Distance Geometry Problem. Formally
 
 `alternating_completion.m`: This is the main algorithm for the Euclidean Distance Geometry Problem for the case of exact partial information. 
 
-`alternating_completion_noisy.m`: This is the main algorithm for the Euclidean Distance Geometry Problem for the case of noisy partial information. The noise is assumed to be additive and Gaussian.
+`alternating_completion_noisy.m`: This is the main algorithm for the Euclidean Distance Geometry Problem for the case of noisy partial information. The noise is assumed to be additive Gaussian.
 
-`BBGradient.m`: This implements the BB gradient method coupled with nonmonotone line search.
+`BBGradient.m`: This implements the BB gradient method coupled with nonmonotone line search. 
 
-`ReadOFF.m, READObjShape.m, ViewMesh.m, ViewPC.m`: These scripts are used to read different types of the data file and generate points, mesh. They are also used in viewing the reconstructed 3D geometry from the main algorithms.
+`ReadOFF.m, READObjShape.m, ViewMesh.m, ViewPC.m`: These scripts are used to read different types of the data file and generate points, mesh. They are also used in viewing the outputs of the main algorithms.
 
 ## List of data files tested
 * `1k.off`: sphere with 1002 points
