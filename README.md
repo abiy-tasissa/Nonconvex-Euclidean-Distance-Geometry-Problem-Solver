@@ -1,6 +1,6 @@
 # Nonconvex-Euclidean-Distance-Geometry-Problem-Solver
 A fast nonconvex algorithm for the Euclidean Distance Geometry Problem. Formally, consider a set of n points where partial inter-point distance information is provided. The goal of Euclidean Distance Geometry problem (EDG in short) is to find the coordinate of the points given this partial information. The partial information can be exact or noisy and the solver handles these different cases. These set of codes were written as part of a research project on the Euclidean Distance Geometry Problem. The codes are written by 
-Professor [Rongjie Lai](http://homepages.rpi.edu/~lair/) and Abiy Tasissa. We appreciate Dr. Jia for discussions on algorithms and the code at the early stage of the project.
+Professor [Rongjie Lai](http://homepages.rpi.edu/~lair/) and Abiy Tasissa. We appreciate Dr. Jia Li for discussions on algorithms and the code at the early stage of the project.
 
 ## MATLAB files description
 `demo_globalrecon.m`: This is the main file which loads different kinds of data file (some of them from the data folder) and reads the coordinates. Using these coordinate, the full distance matrix for the data is constructed. Then, some entries of the distance matrix are selected uniformly at random. Once these information and some parameters for the main algorithm are set, the script calls the main algorithms.  
