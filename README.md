@@ -4,9 +4,9 @@ A fast nonconvex algorithm for the Euclidean Distance Geometry Problem. Formally
 ## MATLAB files description
 `demo_globalrecon.m`: This is the main file which loads different kinds of data file (some of them from the data folder) and reads the coordinates. Using these coordinates, the full distance matrix for the data is constructed. Then, some entries of the distance matrix are selected uniformly at random. Once these information and some parameters for the main algorithm are set, the script calls the main algorithms.  
 
-`alternating_completion.m`: This is the main algorithm for the Euclidean Distance Geometry Problems for the case of exact partial information. 
+`alternating_completion.m`: This is the main algorithm for the Euclidean Distance Geometry Problem for the case of exact partial information. 
 
-`alternating_completion_noisy.m`: This is the main algorithm for the Euclidean Distance Geometry Problems for the case of noisy partial information. The noise is assumed to be additive and Gaussian.
+`alternating_completion_noisy.m`: This is the main algorithm for the Euclidean Distance Geometry Problem for the case of noisy partial information. The noise is assumed to be additive and Gaussian.
 
 `BBGradient.m`: This implements the BB gradient method coupled with nonmonotone line search.
 
@@ -19,7 +19,7 @@ A fast nonconvex algorithm for the Euclidean Distance Geometry Problem. Formally
 * `horse.obj`: horse with 19851 points
 * `ptswiss.mat`: Swiss roll data with Euclidean distances. It has 2048 points
 * `GeodesicDistswiss.mat`: Swiss roll data with geodesic distance. It has 2048 points.
-* `UScities.mat`: Data of 2929 US cities
+* `UScities.mat`: Data of 2920 US cities
 
 ## Instructions
 
