@@ -18,6 +18,10 @@ A fast nonconvex algorithm for the Euclidean Distance Geometry Problem. Formally
 * `ptswiss.mat`: Swiss roll data with 2048 points
 * `UScities.mat`: Data of 2920 US cities
 
+The first and second data sets are taken from [here](http://visionair.ge.imati.cnr.it/ontologies/shapes/search.jsp).
+The third data was obtained by simply plotting the parametric equations of a Swiss roll. The last data uses Latitude
+and Longitude of US cities, in different zip codes, to generate the point coordinates. 
+
 ## Instructions
 
 The starting script is `demo_globalrecon.m`. Choose a data, sampling rate, set algorithm parameters and call either the exact or noisy solver. 
