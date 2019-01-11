@@ -15,10 +15,7 @@ A fast nonconvex algorithm for the Euclidean Distance Geometry Problem. Formally
 ## List of data files tested
 * `1k.off`: sphere with 1002 points
 * `cow_1.obj`: cow with 2601 points
-* `kitten_1.obj`: kitten with 2884 points
-* `horse.obj`: horse with 19851 points
 * `ptswiss.mat`: Swiss roll data with Euclidean distances. It has 2048 points
-* `GeodesicDistswiss.mat`: Swiss roll data with geodesic distance. It has 2048 points.
 * `UScities.mat`: Data of 2920 US cities
 
 ## Instructions
@@ -27,7 +24,7 @@ The starting script is `demo_globalrecon.m`. Choose a data, sampling rate, set a
 ## References
 
 Abiy Tasissa and Rongjie Lai, "Exact Reconstruction of Euclidean Distance Geometry Problem Using Low-rank Matrix Completion," in IEEE Transactions on Information Theory, 2018. doi: 10.1109/TIT.2018.2881749
-[URL](:http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8537996&isnumber=4667673)
+[URL](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8537996&isnumber=4667673)
 
 
 ## Feedback
