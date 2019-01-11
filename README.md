@@ -10,7 +10,7 @@ A fast nonconvex algorithm for the Euclidean Distance Geometry Problem. Formally
 
 `BBGradient.m`: This implements the BB gradient method coupled with nonmonotone line search. 
 
-`ReadOFF.m, READObjShape.m, ViewMesh.m, ViewPC.m`: These scripts are used to read different types of the data file and generate points, mesh. They are also used in viewing the outputs of the main algorithms.
+`ReadOFF.m, ViewMesh.m, ViewPC.m`: These scripts are used to read different types of the data file and generate points, mesh. They are also used in viewing the outputs of the main algorithms.
 
 ## List of data files tested
 * `1k.off`: sphere with 1002 points
