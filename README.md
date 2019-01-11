@@ -13,8 +13,8 @@ A fast nonconvex algorithm for the Euclidean Distance Geometry Problem. Formally
 `ReadOFF.m, ViewMesh.m, ViewPC.m`: These scripts are used to read different types of the data file and generate points, mesh. They are also used in viewing the outputs of the main algorithms.
 
 ## List of data files tested
-* `1k.off`: sphere with 1002 points
-* `cow_1.obj`: cow with 2601 points
+* `1k.off`: Sphere with 1002 points
+* `cow_1.obj`: Cow with 2601 points
 * `ptswiss.mat`: Swiss roll data with 2048 points
 * `UScities.mat`: Data of 2920 US cities
 
