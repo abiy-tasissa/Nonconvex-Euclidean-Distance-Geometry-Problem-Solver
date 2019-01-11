@@ -14,7 +14,7 @@ A fast nonconvex algorithm for the Euclidean Distance Geometry Problem. Formally
 
 ## List of data files tested
 * `1k.off`: Sphere with 1002 points
-* `cow_1.obj`: Cow with 2601 points
+* `cow.off`: Cow with 2601 points
 * `ptswiss.mat`: Swiss roll data with 2048 points
 * `UScities.mat`: Data of 2920 US cities
 
